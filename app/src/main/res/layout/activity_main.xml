@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.android.tempsensor.MainActivity">
+
+    <TextView
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La temperatura ambiente es"/>
+    <TextView
+        android:background="@drawable/round_bg"
+        android:id="@+id/roomTemptext"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="48sp"
+        android:layout_gravity="center"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="0°C"
+         />
+
+    <TextView
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensores disponibles en el dispositivo"/>
+
+    <TextView
+        android:id="@+id/sensorsList"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor list"/>
+
+</LinearLayout>
